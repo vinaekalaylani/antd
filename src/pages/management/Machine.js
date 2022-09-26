@@ -124,7 +124,7 @@ export default function Machine() {
                 size={size}
                 onClose={onClose}
                 open={open}
-                extra={
+                footer={
                     <Space>
                         <Button onClick={onClose}>Cancel</Button>
                         <Button type="primary" onClick={onClose}>
